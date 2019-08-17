@@ -34,7 +34,7 @@ body {
 
 #erik {
   padding: 5%;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;
 }
 .clearfix::after {
   content: "";
@@ -72,14 +72,13 @@ li a {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   max-width: 960px;
-
 }
 
 #aboutmeTitle {
   color: #4aaaa5;
   padding: 15px 15px;
   text-align: left;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 #IMGaboutme {
@@ -118,7 +117,7 @@ textarea {
 }
 
 textarea {
-  height:200px;
+  height: 200px;
 }
 
 input[type="submit"] {
@@ -133,7 +132,6 @@ input[type="submit"] {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   max-width: 960px;
-
 }
 
 #portfolioTitle {
@@ -141,14 +139,13 @@ input[type="submit"] {
   padding: 15px 15px;
   text-align: left;
   bottom: 20px;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 .portfolioImage {
   width: 214px;
   height: 214px;
   border: 1px solid #dddddd;
-
 }
 
 .row {
@@ -162,20 +159,18 @@ input[type="submit"] {
 
 .container1 {
   padding: 10px 0;
-
 }
 .content {
   background-color: white;
   width: 50%;
   padding: 20px;
-
 }
 
 .portTitle {
   background-color: #4aaaa5;
   position: absolute;
   color: white;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;
   font-size: 20px;
   width: 215px;
   height: 30px;
@@ -194,49 +189,13 @@ footer {
 }
 
 @media screen and (max-width: 980px) {
-  #headsection {
-    float: none;
-    width: 100%;  }
-}
-
-@media screen and (max-width: 768px) {
-.name {
-    width: 41%;  
-      }
-
-#headsize {
-  position: relative;
-}
-#erik {
-  text-align: center;
-}
-
-#middle {
-  display: block;
-}
-
-.headerlist {
-  float: right;
-}
-
-#aboutme {
-margin: 10% 0;
-}
-  
-#IMGaboutme {
-  float: none;
-}
-
-}
-
-@media screen and (max-width: 640px) {
- 
- /* about me page */
   .name {
-      float: none;
-      width: 100%;  
-        }
-  
+    width: 45%;
+  }
+
+  #headsize {
+    position: relative;
+  }
   #erik {
     text-align: center;
   }
@@ -244,18 +203,76 @@ margin: 10% 0;
   #middle {
     display: block;
   }
-  
+
   .headerlist {
-    float: none;
-    width: 100%;  }
+    float: right;
+    width: 280px;
+  }
 
   #aboutme {
-margin: 10% 0;
+    margin: 10% 0;
   }
-    
+
   #IMGaboutme {
     float: none;
   }
+}
 
-
+@media screen and (max-width: 768px) {
+  .name {
+    width: 45%;
   }
+
+  #headsize {
+    position: relative;
+  }
+  #erik {
+    text-align: center;
+  }
+
+  #middle {
+    display: block;
+  }
+
+  .headerlist {
+    float: right;
+    width: 280px;
+  }
+
+  #aboutme {
+    margin: 10% 0;
+  }
+
+  #IMGaboutme {
+    float: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* about me page */
+  .name {
+    float: none;
+    width: 100%;
+  }
+
+  #erik {
+    text-align: center;
+  }
+
+  #middle {
+    display: none;
+  }
+
+  .headerlist {
+    float: none;
+    width: 100%;
+  }
+
+  #aboutme {
+    margin: 10% 0;
+  }
+
+  #IMGaboutme {
+    float: none;
+  }
+}
