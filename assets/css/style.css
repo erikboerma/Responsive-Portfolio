@@ -246,6 +246,14 @@ footer {
   #IMGaboutme {
     float: none;
   }
+
+  #main {
+    margin: 0% 2%;
+  }
+
+  .row {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -274,5 +282,12 @@ footer {
 
   #IMGaboutme {
     float: none;
+  }
+  .row {
+    display: block;
+  }
+
+  #main {
+    margin: 10% 2%;
   }
 }
